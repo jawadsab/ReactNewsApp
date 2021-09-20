@@ -1,4 +1,5 @@
 import "./NavbarStyles.css";
+import SearchInput from "../Input/SearchInput";
 
 const Navbar = () => {
   return (
@@ -6,9 +7,7 @@ const Navbar = () => {
       <div className="navigation__brand">
         <p>ReactNews.io</p>
       </div>
-      <div className="navigation__search">
-        <input className="search__input" type="text" placeholder="Search" />
-      </div>
+      <SearchInput />
     </nav>
   );
 };
