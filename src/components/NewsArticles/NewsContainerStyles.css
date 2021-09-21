@@ -24,11 +24,7 @@
 .article__content p {
     text-align: justify;
     margin-top:10px;
-    text-overflow: ellipsis;
-
-  /* Required for text-overflow to do anything */
-  white-space: nowrap;
-  overflow: hidden;
+    word-wrap: break-word;
 }
 
 .article__content p span {
