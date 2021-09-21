@@ -20,10 +20,7 @@
 
 @media only screen and (max-width: 750px) {
   .navigation__search {
-    position: absolute;
-    left: 0px;
-    top: 110%;
-    right: 0px;
+    width: 100%;
   }
   .search__input {
     width: 100%;

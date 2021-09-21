@@ -1,0 +1,46 @@
+.article__container {
+    /* background-color: pink; */
+    padding:1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px ,1fr));
+    grid-gap:10px;
+    grid-auto-flow: dense;
+
+
+}
+
+.article__container > .article__card:nth-child(4n) {
+    grid-column: span 2; 
+     grid-row: span 1; }
+
+.article__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.article__content {
+    padding:10px;
+}
+.article__content p {
+    text-align: justify;
+    margin-top:10px;
+    text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.article__content p span {
+    text-decoration: underline;
+    color:#2b59c3;
+}
+
+
+
+@media only screen and (max-width:550px) {
+    .article__container {
+        display:flex;
+        flex-direction: column;
+    }
+}

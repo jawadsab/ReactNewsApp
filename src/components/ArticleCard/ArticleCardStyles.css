@@ -1,0 +1,7 @@
+.article__card {
+  border: 1px solid #ccc;
+  min-height: 350px;
+  width: 100%;
+  /* background-color: red; */
+  background-color: white;
+}
